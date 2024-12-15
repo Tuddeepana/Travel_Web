@@ -1,0 +1,65 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Section Container */
+  .destination-section {
+    text-align: center;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    padding: 3rem 1.5rem;
+  }
+  
+  /* Header Text */
+  .header-text h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .header-text p {
+    font-size: 1rem;
+    margin: 1rem auto;
+    max-width: 700px;
+  }
+  
+  /* Slick Carousel Overrides */
+  .destination-carousel {
+    margin: 2rem 0;
+  }
+  
+  .slick-dots li button:before {
+    color: #ff4c60; /* Active dot color */
+    font-size: 12px;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #e63a4e;
+  }
+  
+  /* Destination Cards */
+  .destination-card {
+    padding: 0 10px; /* Adds spacing between cards */
+  }
+  
+  .destination-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .destination-card img:hover {
+    transform: scale(1.05);
+  }
+  
