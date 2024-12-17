@@ -5,13 +5,13 @@ const Navbar = () => {
                 Logo
             </h2>
             <div className="flex justify-between items-center flex-shrink-0 gap-10">
-                <a className="text-black font-montserrat text-lg font-semibold leading-normal" href="">
+                <a className="text-black font-montserrat text-[0.95rem] font-semibold leading-normal" href="">
                     Activities
                 </a>
-                <a className="text-black font-montserrat text-lg font-semibold leading-normal" href="">
+                <a className="text-black font-montserrat text-[0.95rem] font-semibold leading-normal" href="">
                     Services
                 </a>
-                <button className="flex p-[0.625rem_1.25rem] items-start gap-[0.625rem] rounded-[2.8125rem] bg-black text-white font-montserrat text-lg font-semibold leading-normal">
+                <button className="flex p-[0.625rem_1.25rem] items-start gap-[0.625rem] rounded-[2.8125rem] bg-black hover:bg-[#555] text-white duration-300 font-montserrat text-[0.95rem] font-semibold leading-normal">
                     Contact Us
                 </button>
             </div>
