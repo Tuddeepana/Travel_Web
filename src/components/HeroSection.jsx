@@ -1,16 +1,12 @@
 import './HeroSection.css';
+import Background from '/Background.png';
 
 const HeroSection = () => {
   return (
-    <div className="hero-section">
-      <div className="hero-content">
-        <h1>Explore <br /> <span>SRI LANKA</span></h1>
-        <p>
-          Discover and book unique experiences in Sri Lanka hosted by local experts.
-        </p>
-        <button className="services-btn">Our Services</button>
+      <div className="w-screen h-screen bg-cover bg-[#ffffff]"
+      style={{backgroundImage: `url(${Background})`}}>
+
       </div>
-    </div>
   );
 };
 

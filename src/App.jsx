@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 import './App.css'
 import ActivitiesSection from './components/ActivitiesSection'
 import ContactFormSection from './components/ContactFormSection'
@@ -14,8 +12,7 @@ function App() {
 
   return (
     <>
-      <div>
-     
+      <div className='min-h-screen overflow-x-hidden'>
         <Navbar />
         <HeroSection />
         <DestinationSection />
