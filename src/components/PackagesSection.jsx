@@ -1,5 +1,5 @@
 // Import necessary libraries
-
+import { BsWhatsapp } from "react-icons/bs";
 import './PackagesSection.css'; // Separate CSS file for styling
 
 import sigiriya from '../assets/Images/landingPG_Img.jpg'
@@ -37,8 +37,15 @@ const PackagesSection = () => {
           <div className="package-card" key={index}>
             <img src={pkg.image} alt={pkg.title} className="package-image" />
             <div className="package-info">
+              <div>
               <h3>{pkg.title}</h3>
               <p>{pkg.days}</p>
+              </div>
+              <div>
+              <BsWhatsapp size={25} className="items-center m-2 hover:scale-150 "/>
+
+              </div>
+              
             </div>
           </div>
         ))}

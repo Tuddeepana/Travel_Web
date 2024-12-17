@@ -52,12 +52,14 @@
   .package-info {
     padding: 5px 15px;
     text-align: left;
+    display: flex;
+    justify-content:space-between;
   }
   
   .custom-package-btn {
     margin-top: 20px;
     padding: 10px 20px;
-    background: #1474c2;
+    background: #4d8c97;
     color: #fff;
     font-size: 1rem;
     border: none;

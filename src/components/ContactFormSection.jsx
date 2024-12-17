@@ -39,7 +39,7 @@ const ContactFormSection = () => {
         <div className="contact-details">
           <div className="contact-item ">
             <div className="  border rounded-md border-teal-700  ">
-            <IoCall size={35} className="items-center m-2  "/>
+            <IoCall size={35} className="items-center m-2 "/>
             </div>
             <div>
             <p>Give Us a Call</p>
