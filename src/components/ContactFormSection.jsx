@@ -59,19 +59,19 @@ const ContactFormSection = () => {
 
          
           <div className="social-icons">
-            <div className="  border rounded-md border-teal-700  ">
+            <div className="  border rounded-md border-teal-700 hover:scale-110 transition-transform   ">
               <FaTwitter  size={15} className="items-center m-2  "/>
             </div>
-            <div className="  border rounded-md border-teal-700  ">
+            <div className="  border rounded-md border-teal-700 hover:scale-110 transition-transform ">
             <AiFillLinkedin  size={15} className="items-center m-2  "/>
-          </div>
-          <div className="  border rounded-md border-teal-700  ">
-            <ImFacebook2  size={15} className="items-center m-2  "/>
-          </div>
-          <div className="  border rounded-md border-teal-700  ">
-            <FaInstagramSquare  size={15} className="items-center m-2  "/>
-          </div>
-          </div>
+            </div>
+            <div className="  border rounded-md border-teal-700 hover:scale-110 transition-transform  ">
+              <ImFacebook2  size={15} className="items-center m-2  "/>
+            </div>
+            <div className="  border rounded-md border-teal-700 hover:scale-110 transition-transform  ">
+              <FaInstagramSquare  size={15} className="items-center m-2  "/>
+            </div>
+            </div>
         </div>
 
       </div>
