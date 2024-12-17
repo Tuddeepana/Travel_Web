@@ -1,4 +1,3 @@
-import './HeroSection.css';
 import Background from '/Background.png';
 
 const HeroSection = () => {
