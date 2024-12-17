@@ -1,15 +1,22 @@
+import { FaTwitter } from "react-icons/fa";
+import { AiFillLinkedin } from "react-icons/ai";
+import { ImFacebook2 } from "react-icons/im";
+import { FaInstagramSquare } from "react-icons/fa";
+
 import './Footer.css';
 const Footer = () => {
     return (
       <footer className="footer">
-        <div className="footer-logo">
+        <div className="footer-logo-container">
           <h2>LOGO</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
           <div className="social-icons">
-            <i className="icon-twitter"></i>
-            <i className="icon-youtube"></i>
-            <i className="icon-instagram"></i>
-            <i className="icon-facebook"></i>
+            
+            <FaTwitter  size={20} className="items-center m-2  "/>
+            <AiFillLinkedin  size={20} className="items-center m-2  "/>
+            <ImFacebook2  size={20} className="items-center m-2  "/>
+            <FaInstagramSquare  size={20} className="items-center m-2  "/>
+            
           </div>
         </div>
   
