@@ -10,6 +10,8 @@
   padding: 4rem 1.5rem;
   text-align: center;
   background: #0f2027;
+  justify-content: center;
+  display: flex;
 }
 .top-reviews {
   padding: 4rem 1.5rem;
@@ -105,4 +107,20 @@
   margin-top: 0.5rem;
   font-weight: bold;
   color: #333;
+}
+
+
+.container-Y-Choose{
+  display: flex;
+  gap: 18rem;
+  align-items: center;
+
+}
+
+
+.service-cards {
+ 
+  display: flex;
+  flex-direction: column;
+  
 }
