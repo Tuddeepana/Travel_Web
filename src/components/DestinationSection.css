@@ -14,7 +14,7 @@
   /* Section Container */
   .destination-section {
     text-align: center;
-    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    background: linear-gradient(to bottom, #89b2c4 , #203a43, #0f2027);
     color: #fff;
     padding: 3rem 1.5rem;
   }
@@ -33,7 +33,8 @@
   
   /* Slick Carousel Overrides */
   .destination-carousel {
-    margin: 2rem 0;
+    margin: 2rem 1rem;
+    padding-left: 2rem;
   }
   
   .slick-dots li button:before {
@@ -47,12 +48,12 @@
   
   /* Destination Cards */
   .destination-card {
-    padding: 0 10px; /* Adds spacing between cards */
+    padding: 30px 5px; /* Adds spacing between cards */
   }
   
   .destination-card img {
-    width: 100%;
-    height: 200px;
+    width: 80%;
+    height: 600px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
