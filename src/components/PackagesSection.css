@@ -1,9 +1,10 @@
 .package-section {
-    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    background: linear-gradient(135deg, #0f2027, #0f2027);
     color: #fff;
     text-align: center;
     padding: 40px 20px;
   }
+  
   
   .package-title {
     font-size: 2.5rem;
@@ -15,18 +16,23 @@
     font-size: 1rem;
     margin-bottom: 30px;
     line-height: 1.6;
+    max-width: 700px;
+    text-align: center;
+    margin: 1rem auto;
+    margin-bottom: 70px;  
   }
   
   .package-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
+    padding: 1rem 20rem;
   }
   
   .package-card {
     background: #fff;
     color: #000;
-    border-radius: 10px;
+    
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -39,12 +45,13 @@
   
   .package-image {
     width: 100%;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
   }
   
   .package-info {
-    padding: 15px;
+    padding: 5px 15px;
+    text-align: left;
   }
   
   .custom-package-btn {

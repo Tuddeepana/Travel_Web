@@ -2,31 +2,36 @@
 
 import './PackagesSection.css'; // Separate CSS file for styling
 
+import sigiriya from '../assets/Images/landingPG_Img.jpg'
+
 const PackagesSection = () => {
   const packages = [
     {
       title: 'SIGIRIYA',
       days: '10 days trip',
-      image: 'path-to-sigiriya-image.jpg',
+      image: sigiriya,
     },
     {
       title: 'SINHARAJAYA',
       days: '6 days trip',
-      image: 'path-to-sinharajaya-image.jpg',
+      image: sigiriya,
     },
     {
       title: 'ELLA',
       days: '6 days trip',
-      image: 'path-to-ella-image.jpg',
+      image: sigiriya,
     },
   ];
 
   return (
     <section className="package-section">
+      <div className='package-title-container'> 
       <h2 className="package-title">Top Packages</h2>
       <p className="package-description">
         This text presents my research journey on the topic of Music and Tourism Imaginaries and gives the context which led to the publication of this special issue of Via Tourism Review.
       </p>
+      </div>
+      
       <div className="package-grid">
         {packages.map((pkg, index) => (
           <div className="package-card" key={index}>
