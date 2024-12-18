@@ -5,9 +5,13 @@
     align-items: center;
     justify-content: flex-start;
     background: url('/src/assets/Images/landingPG_Img.jpg') no-repeat center center/cover;
-    position: relative;
+    position:relative;
     color: white;
     padding: 2rem 3rem;
+    
+   
+    
+    
   }
   
   /* Overlay for readability */
