@@ -1,7 +1,7 @@
 const ActivityCard = ({icon, title, description}) => {
     return (
         <div
-            className="flex w-[18rem] p-[3.125rem] px-[1.25rem] flex-col justify-center items-center gap-[3rem] flex-shrink-0 rounded-[0.9375rem] bg-white shadow-[1px_1px_2px_0px_rgba(40,141,157,0.39)]">
+            className="flex w-[18rem] cursor-default p-[3.125rem] px-[1.25rem] flex-col justify-center items-center gap-[3rem] flex-shrink-0 rounded-[0.9375rem] bg-white shadow-[1px_1px_2px_0px_rgba(40,141,157,0.39)]">
             <div className="flex flex-col items-center gap-[0.6875rem]">
                 <div className="text-[5rem]">
                     {icon}
