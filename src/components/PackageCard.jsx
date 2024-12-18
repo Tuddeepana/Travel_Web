@@ -3,7 +3,7 @@ import WhatsAppicon from "/whatsapp.svg";
 const PackageCard = ({image, name, duration}) => {
     return (
         <div className="flex flex-col items-center bg-[#f3f3f5] rounded-md overflow-hidden cursor-pointer hover:transform hover:-translate-y-1 hover:shadow-lg transition duration-300">
-            <div className="w-[15rem] h-[15rem] flex-shrink-0 bg-blue-100"
+            <div className="w-[15rem] h-[15rem] mt-0 pt-0 flex-shrink-0 bg-blue-100"
                  style={{backgroundImage: `url(${image})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
             </div>
             <div className="flex justify-between items-center w-full p-2">

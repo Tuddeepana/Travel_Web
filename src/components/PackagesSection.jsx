@@ -1,9 +1,9 @@
 import PackageCard from "./PackageCard.jsx";
 
 // Importing images
-import sigiriyaImage from "/sigiriya.jpeg";
-import sinharajayaImage from "/sinharaja.jpeg";
-import ellaImage from "/ella.jpeg";
+import sigiriyaImage from "/sigiriya.png";
+import sinharajayaImage from "/sinharaja.png";
+import ellaImage from "/ella.png";
 
 const PackagesSection = () => {
     const packages = [
