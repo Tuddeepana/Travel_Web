@@ -3,12 +3,16 @@ import "./DestinationSection.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+
+//import images
+import destination1 from "../assets/Images/destination.jpg"
+
 const destinations = [
-  { id: 1, image: "https://via.placeholder.com/400x300", alt: "City Road" },
-  { id: 2, image: "https://via.placeholder.com/400x300", alt: "Canal Views" },
-  { id: 3, image: "https://via.placeholder.com/400x300", alt: "Colorful Village" },
-  { id: 4, image: "https://via.placeholder.com/400x300", alt: "Mountain Lake" },
-  { id: 5, image: "https://via.placeholder.com/400x300", alt: "Hot Air Balloons" },
+  { id: 1, image: destination1, alt: "City Road" },
+  { id: 2, image: destination1, alt: "Canal Views" },
+  { id: 3, image: destination1, alt: "Colorful Village" },
+  { id: 4, image: destination1, alt: "Mountain Lake" },
+  { id: 5, image: destination1, alt: "Hot Air Balloons" },
 ];
 
 const DestinationSection = () => {
@@ -17,7 +21,7 @@ const DestinationSection = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Number of cards to show at once
+    slidesToShow: 4, // Number of cards to show at once
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,

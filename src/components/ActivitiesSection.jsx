@@ -46,11 +46,15 @@ const ActivitiesSection = () => {
 
       {/* Why Choose Us Section */}
       <section className="why-choose-us">
-        <div className="container">
+        <div className="container-Y-Choose">
+          
+          <div className="textContainer">
           <h2 className="section-title">Why Choose Us?</h2>
           <p className="section-description">
             Discover the reasons why our clients love traveling with us.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit iure dolorem eos officiis exercitationem molestias esse possimus ea atque. Eius non distinctio mollitia tempore autem, tenetur dolorum dolore quidem numquam!
           </p>
+          </div>
           <div className="service-cards">
             {services.map((service) => (
               <div key={service.id} className="service-card">
