@@ -6,7 +6,11 @@
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 2rem;
-    margin-bottom: 2rem;
+    margin: 5rem 9rem;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
   }
   
   .contact-form-section h1 {
@@ -48,30 +52,30 @@
   }
   
   .form-button {
-    background-color: #d4a373;
+    background-color: #22606b;
     color: white;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: 10px;
   }
   
   .form-button:hover {
-    background-color: #b27b4b;
+    background-color: #379aac;
   }
   
   .contact-details {
     margin-top: 2rem;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 2rem;
   }
   
   .contact-item {
     flex: 1;
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
-    gap: 0.5rem;
+    gap: 2.5rem;
   }
   
   .contact-item p {
@@ -80,7 +84,7 @@
   
   .social-icons {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     margin-top: 1rem;
   }
   

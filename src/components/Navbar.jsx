@@ -1,16 +1,22 @@
-import './Navbar.css';
-
 const Navbar = () => {
-  return (
-    <nav className="navbar">
-      <div className="logo">Logo</div>
-      <ul className="nav-links">
-        <li><a href="#activities">Activities</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><button className="contact-btn">Contact Us</button></li>
-      </ul>
-    </nav>
-  );
+    return (
+        <div className="absolute top-0 flex w-full px-[5rem] justify-between items-center pt-8 cursor-default">
+            <h2 className="text-black font-montserrat text-2xl font-semibold leading-normal tracking-[0.9375rem]">
+                Logo
+            </h2>
+            <div className="flex justify-between items-center flex-shrink-0 gap-10">
+                <a className="text-black font-montserrat text-[0.95rem] font-semibold leading-normal" href="">
+                    Activities
+                </a>
+                <a className="text-black font-montserrat text-[0.95rem] font-semibold leading-normal" href="">
+                    Services
+                </a>
+                <button className="flex p-[0.625rem_1.25rem] items-start gap-[0.625rem] rounded-[2.8125rem] bg-black hover:bg-[#555] text-white duration-300 font-montserrat text-[0.95rem] font-semibold leading-normal">
+                    Contact Us
+                </button>
+            </div>
+        </div>
+    );
 };
 
 export default Navbar;
