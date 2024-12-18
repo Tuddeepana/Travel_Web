@@ -1,6 +1,6 @@
 const TopSection = ({title, description}) => {
     return (
-        <div className="flex flex-col justify-center items-center gap-[2rem] w-[70%]">
+        <div className="flex cursor-default flex-col justify-center items-center gap-[2rem] w-[70%]">
             <h3 className="self-stretch text-white text-center font-odor-mean-chey text-[4rem] font-normal leading-normal">
                 {title}
             </h3>

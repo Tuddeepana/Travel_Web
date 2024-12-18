@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import PackagesSection from './components/PackagesSection'
 import Footer from './components/Footer'
 import ServicesSection from "./components/ServicesSection.jsx";
+import VehicleSection from "./components/VehicleSection.jsx";
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
         <PackagesSection />
         <ActivitiesSection />
         <ServicesSection />
+        <VehicleSection />
         <ContactFormSection />
         <Footer />
       </div>

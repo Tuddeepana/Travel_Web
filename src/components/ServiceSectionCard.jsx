@@ -1,7 +1,7 @@
 const serviceSectionCard = ({Icon:Icon, title, desctiption}) => {
     return (
         <div
-            className="flex p-[1rem] justify-center items-center gap-[1.25rem] rounded-[0.625rem] border border-[#042630] bg-[#042630]">
+            className="flex p-[1rem] cursor-default justify-center items-center gap-[1.25rem] rounded-[0.625rem] border border-[#042630] bg-[#042630]">
             <Icon className="text-[#f3f3f5] text-[3rem]"/>
             <div>
                 <h6

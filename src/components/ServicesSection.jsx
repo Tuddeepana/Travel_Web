@@ -10,7 +10,7 @@ const services = [
 const ServicesSection = () => {
     return (
         <div className="flex p-[6.25rem] px-[4.6875rem] justify-center items-center gap-[7.5rem] bg-white">
-            <div className="flex w-[40%] flex-col justify-center items-start gap-[1.5625rem] flex-shrink-0">
+            <div className="flex w-[40%] cursor-default flex-col justify-center items-start gap-[1.5625rem] flex-shrink-0">
                 <h3 className="self-stretch text-black font-odor-mean-chey text-[4rem] font-normal leading-normal">
                     Why Choose Us?
                 </h3>
