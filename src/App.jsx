@@ -12,8 +12,7 @@ function App() {
 
   return (
     <>
-      <div>
-     
+      <div className='min-h-screen overflow-x-hidden'>
         <Navbar />
         <HeroSection />
         <DestinationSection />

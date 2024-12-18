@@ -1,58 +1,52 @@
-// Import necessary libraries
-import { BsWhatsapp } from "react-icons/bs";
-import './PackagesSection.css'; // Separate CSS file for styling
+import PackageCard from "./PackageCard.jsx";
 
-import sigiriya from '../assets/Images/landingPG_Img.jpg'
+// Importing images
+import sigiriyaImage from "/sigiriya.jpeg";
+import sinharajayaImage from "/sinharaja.jpeg";
+import ellaImage from "/ella.jpeg";
 
 const PackagesSection = () => {
-  const packages = [
-    {
-      title: 'SIGIRIYA',
-      days: '10 days trip',
-      image: sigiriya,
-    },
-    {
-      title: 'SINHARAJAYA',
-      days: '6 days trip',
-      image: sigiriya,
-    },
-    {
-      title: 'ELLA',
-      days: '6 days trip',
-      image: sigiriya,
-    },
-  ];
+    const packages = [
+        {
+            title: 'SIGIRIYA',
+            days: '10 days trip',
+            image: 'path-to-sigiriya-image.jpg',
+        },
+        {
+            title: 'SINHARAJAYA',
+            days: '6 days trip',
+            image: 'path-to-sinharajaya-image.jpg',
+        },
+        {
+            title: 'ELLA',
+            days: '6 days trip',
+            image: 'path-to-ella-image.jpg',
+        },
+    ];
 
-  return (
-    <section className="package-section">
-      <div className='package-title-container'> 
-      <h2 className="package-title">Top Packages</h2>
-      <p className="package-description">
-        This text presents my research journey on the topic of Music and Tourism Imaginaries and gives the context which led to the publication of this special issue of Via Tourism Review.
-      </p>
-      </div>
-      
-      <div className="package-grid">
-        {packages.map((pkg, index) => (
-          <div className="package-card" key={index}>
-            <img src={pkg.image} alt={pkg.title} className="package-image" />
-            <div className="package-info">
-              <div>
-              <h3>{pkg.title}</h3>
-              <p>{pkg.days}</p>
-              </div>
-              <div>
-              <BsWhatsapp size={25} className="items-center m-2 hover:scale-150 "/>
-
-              </div>
-              
+    return (
+        <div
+            className="flex py-[4.6875rem] px-0 flex-col justify-center items-center gap-[3.125rem] self-stretch bg-[#042630]">
+            <div className="flex flex-col justify-center items-center gap-[2rem] w-[70%]">
+                <h3 className="self-stretch text-white text-center font-odor-mean-chey text-[3rem] font-normal leading-normal">
+                    Top Packages
+                </h3>
+                <p className="self-stretch text-white/70 text-center font-inter text-[1.2rem] font-normal leading-normal">
+                    This text presents my research journey on the topic of Music and Tourism Imaginaries and gives the
+                    context which led to the publication of this special issue of Via Tourism Review.
+                </p>
             </div>
-          </div>
-        ))}
-      </div>
-      <button className="custom-package-btn">Custom Package</button>
-    </section>
-  );
+            <div className="flex justify-center items-center gap-[2.5rem]">
+                <PackageCard name={"Sigiriya"} image={sigiriyaImage} duration={"10"}/>
+                <PackageCard name={"Sinharajaya"} image={sinharajayaImage} duration={"5"}/>
+                <PackageCard name={"Ella"} image={ellaImage} duration={"6"}/>
+            </div>
+            <button
+                className="rounded-[0.625rem] p-3 bg-[#D0D6D6] text-[#042630] font-work-sans text-[0.875rem] font-semibold leading-normal uppercase">
+                Custom Package
+            </button>
+        </div>
+    );
 };
 
 export default PackagesSection;
