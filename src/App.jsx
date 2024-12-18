@@ -1,5 +1,6 @@
 import './App.css'
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 import ActivitiesSection from './components/ActivitiesSection'
 import ContactFormSection from './components/ContactFormSection'
@@ -30,6 +31,7 @@ function App() {
 
         {/*vercel analytics*/}
         <Analytics />
+        <SpeedInsights />
       </div>
   )
 }
