@@ -1,7 +1,7 @@
 import Background from '/Background.png';
 
 const HeroSection = () => {
-    return (<div className="w-screen h-screen bg-cover bg-[#ffffff] flex items-center"
+    return (<div className="w-full h-screen bg-cover bg-[#ffffff] flex items-center"
                  style={{backgroundImage: `url(${Background})`}}>
             <div className="flex flex-col items-start gap-[4.625rem] pt-20 pl-[5rem]">
                 <div className="flex flex-col items-start gap-[1.5rem] self-stretch">

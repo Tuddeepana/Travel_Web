@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <div className="absolute top-0 flex w-full px-[6rem] justify-between items-center pt-8 cursor-default">
+        <div className="absolute top-0 flex w-full px-[5rem] justify-between items-center pt-8 cursor-default">
             <h2 className="text-black font-montserrat text-2xl font-semibold leading-normal tracking-[0.9375rem]">
                 Logo
             </h2>
