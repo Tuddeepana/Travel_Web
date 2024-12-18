@@ -7,24 +7,6 @@ import ellaImage from "/ella.png";
 import TopSection from "./TopSection.jsx";
 
 const PackagesSection = () => {
-    const packages = [
-        {
-            title: 'SIGIRIYA',
-            days: '10 days trip',
-            image: 'path-to-sigiriya-image.jpg',
-        },
-        {
-            title: 'SINHARAJAYA',
-            days: '6 days trip',
-            image: 'path-to-sinharajaya-image.jpg',
-        },
-        {
-            title: 'ELLA',
-            days: '6 days trip',
-            image: 'path-to-ella-image.jpg',
-        },
-    ];
-
     return (
         <div
             className="flex py-[4.6875rem] px-0 flex-col justify-center items-center gap-[3.125rem] self-stretch bg-[#042630]">

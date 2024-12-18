@@ -25,30 +25,6 @@ const ActivitiesSection = () => {
 
             </div>
         </div>
-
-
-
-        // <div className="flex py-[4.6875rem] px-0 flex-col justify-center items-center gap-[3.125rem] self-stretch bg-[#042630]">
-        //   {/* Top Activities Section */}
-        //   <section className="activities-section">
-        //     <div className="container">
-        //       <h2 className="section-title">Top Activities</h2>
-        //       <p className="section-description">
-        //         This text presents my research journey on the topic of Music and Tourism imaginations and gives
-        //         the context which led to the publication of this special issue of We Tourism Review.
-        //       </p>
-        //       <div className="activity-cards">
-        //         {activities.map((activity) => (
-        //           <div key={activity.id} className="card">
-        //             <div className="icon">{activity.icon}</div>
-        //             <h3 className="card-title">{activity.title}</h3>
-        //             <p className="card-description">{activity.description}</p>
-        //           </div>
-        //         ))}
-        //       </div>
-        //     </div>
-        //   </section>
-        // </div>
     );
 };
 
