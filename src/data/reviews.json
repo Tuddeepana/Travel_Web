@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Scarlett Thomas",
+    "location": "Singapore",
+    "response": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "image": "https://randomuser.me/api/portraits/women/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "John Doe",
+    "location": "New York",
+    "response": "It has survived not only five centuries, but also the leap into electronic typesetting.",
+    "image": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Jane Smith",
+    "location": "London",
+    "response": "An unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "image": "https://randomuser.me/api/portraits/women/2.jpg"
+  }
+]

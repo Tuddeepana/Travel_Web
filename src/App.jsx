@@ -8,6 +8,7 @@ import PackagesSection from './components/PackagesSection'
 import Footer from './components/Footer'
 import ServicesSection from "./components/ServicesSection.jsx";
 import VehicleSection from "./components/VehicleSection.jsx";
+import ReviewsSection from "./components/ReviewsSection.jsx";
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
         <ActivitiesSection />
         <ServicesSection />
         <VehicleSection />
+        <ReviewsSection />
         <ContactFormSection />
         <Footer />
       </div>
