@@ -1,4 +1,6 @@
 import './App.css'
+import { Analytics } from '@vercel/analytics/react';
+
 import ActivitiesSection from './components/ActivitiesSection'
 import ContactFormSection from './components/ContactFormSection'
 import DestinationSection from './components/DestinationSection'
@@ -14,7 +16,6 @@ function App() {
   
 
   return (
-    <>
       <div className='min-h-screen overflow-x-hidden'>
         <Navbar />
         <HeroSection />
@@ -26,8 +27,10 @@ function App() {
         <ReviewsSection />
         <ContactFormSection />
         <Footer />
+
+        {/*vercel analytics*/}
+        <Analytics />
       </div>
-    </>
   )
 }
 
