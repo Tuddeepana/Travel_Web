@@ -1,69 +1,109 @@
 /* Footer Section */
 .footer {
-    background-color: #383b3f;
-    color: white;
-    padding: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: space-between;
+  background-color: #383b3f;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.footer-logo-container {
+  flex: 1 1 300px;
+  margin-left: 2rem;
+}
+
+.footer-logo-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-logo-container p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  flex: 1 1 150px;
+}
+
+.footer-links h4 {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-contact {
+  flex: 1 1 200px;
+}
+
+.footer-contact p {
+  margin: 0.5rem 0;
+}
+
+.footer-contact h4 {
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.social-icons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .footer {
+      flex-direction: column;
+      align-items: center;
   }
-  
+
   .footer-logo-container {
-    flex: 1 1 300px;
-    margin-left: 2rem;
+      margin-left: 0;
+      text-align: center;
   }
-  
+
+  .footer-links, .footer-contact {
+      text-align: left;
+      width: 100%;
+      padding: 0 1rem;
+  }
+
+  .footer-links ul, .footer-contact p {
+      text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+      padding: 1rem;
+  }
+
   .footer-logo-container h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+      font-size: 1.2rem;
   }
-  
+
   .footer-logo-container p {
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
-  }
-  
-  .footer-links {
-    flex: 1 1 150px;
-  }
-  
-  .footer-links h4 {
-    margin-bottom: 2rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
-  
-  .footer-links ul {
-    list-style: none;
-    padding: 0;
-    
-  }
-  
-  .footer-links li {
-    margin-bottom: 0.5rem;
-    
-    
-   
-  }
-  
-  .footer-contact {
-    flex: 1 1 200px;
-  }
-  
-  .footer-contact p {
-    margin: 0.5rem 0;
-    
-  }
-  .footer-contact h4{
-    margin-bottom: 2rem;
-    font-weight: bold;
-    font-size: 1.2rem;
-
+      font-size: 0.8rem;
   }
 
-  .social-icons{
-    margin-top: 2rem;
-    justify-content: center;
+  .footer-links h4, .footer-contact h4 {
+      font-size: 1rem;
   }
-  
+
+  .footer-links li, .footer-contact p {
+      font-size: 0.8rem;
+  }
+}
