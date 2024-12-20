@@ -1,8 +1,23 @@
 import React, {useState} from "react";
 import destinations from "../data/destinations.json";
 import TopSection from "./TopSection.jsx";
+import roadImg from "../assets/Images/roadImg.jpg"
+import Historic from "../assets/Images/historic.jpg"
+import Coastel from "../assets/Images/Coastel.jpg"
+import Mountain from "../assets/Images/Mountain.jpg"
+import air_baloon from "../assets/Images/air_baloon.jpg"
 
 import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from "react-icons/io";
+
+
+// Mapping image file names to imports
+const imageMap = {
+    "roadImg.jpg": roadImg,
+    "historic.jpg" : Historic,
+    "Coastel.jpg" : Coastel,
+    "Mountain.jpg" : Mountain,
+    "air_baloon.jpg" : air_baloon
+};
 
 const DestinationSection = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -47,7 +62,7 @@ const DestinationSection = () => {
                             // ref={index === currentSlide ? (el) => el?.scrollIntoView({behavior: "smooth", inline:"center"}) : null}
                         >
                             <img
-                                src={destination.image}
+                                src={imageMap[destination.image]}
                                 alt={destination.title}
                                 className="rounded-[0.9375rem] h-72 w-56 object-cover shadow-[1px_1px_2px_0px_rgba(40,141,157,0.39)]"
                             />
