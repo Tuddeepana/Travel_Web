@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "roadImg.jpg",
+    "title": "City Vibes"
+  },
+  {
+    "id": 2,
+    "image": "historic.jpg",
+    "title": "Historic Views"
+  },
+  {
+    "id": 3,
+    "image": "Coastel.jpg",
+    "title": "Coastal Beauty"
+  },
+  {
+    "id": 4,
+    "image": "Mountain.jpg",
+    "title": "Mountain Scenery"
+  },
+  {
+    "id": 5,
+    "image": "air_baloon.jpg",
+    "title": "Hot Air Balloons"
+  },
+  {
+    "id": 6,
+    "image": "roadImg.jpg",
+    "title": "City Vibes"
+  }
+]
